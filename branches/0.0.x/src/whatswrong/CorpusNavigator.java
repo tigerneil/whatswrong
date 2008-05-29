@@ -203,7 +203,9 @@ public class CorpusNavigator extends JPanel implements CorpusLoader.Listener {
 
 
     add(searchPanel, new SimpleGridBagConstraints(0, 0, 2, 1));
-    add(new JScrollPane(results), new SimpleGridBagConstraints(0, 1, 2, 1));
+    JScrollPane resultsPane = new JScrollPane(results);
+    resultsPane.setMinimumSize(new Dimension(100,10));
+    add(resultsPane, new SimpleGridBagConstraints(0, 1, 2, 2));
 
     //setPreferredSize((new Dimension(100, (int) getPreferredSize().getHeight())));
     analyzer = new WhitespaceAnalyzer();
