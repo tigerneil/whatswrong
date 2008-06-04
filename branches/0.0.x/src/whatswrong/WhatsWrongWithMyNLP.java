@@ -14,7 +14,7 @@ public class WhatsWrongWithMyNLP extends JPanel {
 
   private NLPCanvas nlpCanvas = new NLPCanvas();
   private JScrollPane nlpScrollPane;
-  public final static String VERSION = "0.0.5";
+  public final static String VERSION = "0.0.4";
   private final static Properties properties = new Properties();
 
   public static Properties getProperties(){
