@@ -15,7 +15,6 @@
 
 ==Bugfixes==
   * Issue 2 : drawing nodes with many edges results in edges being shifted to the left
-(http://code.google.com/p/whatswrong/issues/detail?id=2)
   * Issue 5 : first time filtering of types did not work  
 
 
