@@ -8,8 +8,9 @@
   * Reads Malt-Tab Format
 
 ==Enhancements==
-  * Added Javadocs
+  * Added source more code documentation
   * Refactored code
+  * Packages renamed
 
 =Changes in 0.1.1=
 
