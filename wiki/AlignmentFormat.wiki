@@ -6,6 +6,8 @@ This page describes the alignment format ("Gale Alignment") that can be used wit
 
 = Format =
 
+The source tag element contains the tokenized source sentence, the translation element contains the target tokenized sentence. The matrix element contains a matrix in which the first row and first column indicate which tokens are null-aligned, and the remainder of the matrix is simply the alignment matrix where each column corresponds to a source token, and each row corresponds to a target token. The seg element can contain the id of the sentence, but doesn't have to. It's only important that there is a seg element for each sentence.
+
 {{{
 <seg id=1>
 <source>Ich habe den Fehler in meiner Sprachverarbeitung gefunden .</source>
