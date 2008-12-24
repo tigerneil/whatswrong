@@ -1,0 +1,28 @@
+#summary The alignment format for whatswrong
+
+= Introduction =
+
+This page describes the alignment format ("Gale Alignment") that can be used with whatswrong-0.2.x.
+
+= Format =
+
+{{{
+<seg id=1>
+<source>Ich habe den Fehler in meiner Sprachverarbeitung gefunden .</source>
+<translation>I've found the error in my NLP .</translation>
+<matrix>
+0 0 0 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 1 0
+0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 1
+</matrix>
+<seg id=2>
+...
+
+
+}}}
