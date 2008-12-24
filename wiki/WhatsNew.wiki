@@ -4,7 +4,7 @@
 =Changes in 2.0.0a=
 
 ==Features==
-  * Bilingual alignment visualization
+  * Bilingual alignment visualization (see AlignmentFormat for the data format)
   * Refactoring: now instances of different types can have different renderers
 
 ==Enhancements==
