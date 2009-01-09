@@ -1,5 +1,4 @@
 #summary Changes in current whatswrong version
-#labels Featured
 
 =Changes in 0.2.0a=
 
