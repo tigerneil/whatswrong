@@ -34,6 +34,4 @@ tokens with words in the visualizer. Next we define a span property `Mentions` t
 
 Note that how these token and span/edge properties are visualized is actually *up to you*. That is, when you load a file in _thebeast_ format you can decide which of these properties should be _span_ properties, which _token_ and which _dep_ (for dependency) properties. See the screenshot below for an example setting:
 
-http://whatswrong.googlecode.com/svn/branches/whatswrong-0.1.x/doc/screenshots/generic-format.png
-
-
+http://whatswrong.googlecode.com/svn/trunk/doc/screenshots/generic-format.png
