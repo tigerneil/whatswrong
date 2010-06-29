@@ -29,6 +29,9 @@ Let us start by an example:
 >>
 ...
 }}}
+
+Note that whitespace between columns *has to be TABS*.
+
 This file defines a sentence start using `>>`. Then it defines a token property `Word` that will result in 
 tokens with words in the visualizer. Next we define a span property `Mentions` that will yield labelled spans in the visualizer. Finally, we add `Relations` for a labelled edges between tokens. Then we start the next sentence (or visualization unit) with `>>`.
 
