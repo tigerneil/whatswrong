@@ -1,0 +1,28 @@
+#summary How to use the generic format.
+
+= Introduction =
+
+whatswrong provides a generic format that you can use to visualize data even if it is not
+in one of the existing formats. 
+
+
+= Format =
+
+{{{
+>>
+>Word
+0 "The"
+1 "man"
+2 "likes"
+3 "football"
+4 "."
+
+>Mentions
+0  1  "Person"
+3  3  "Concept"
+
+>Relations
+2  1  "Agent"
+2  3  "Theme"
+
+}}}
