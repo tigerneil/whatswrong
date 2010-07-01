@@ -23,8 +23,8 @@ Let us start by an example:
 3  3  "Concept"
 
 >Relations
-2  1  "Agent"
-2  3  "Theme"
+2  1  "Agent"    "Some Description Here, will appear when edge is clicked on"
+2  3  "Theme"  "Use-BR-to create line breaks in description"
 
 >>
 ...
