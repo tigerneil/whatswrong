@@ -24,7 +24,7 @@ Let us start by an example:
 
 >Relations
 2  1  "Agent"    "Some Description Here, will appear when edge is clicked on"
-2  3  "Theme"  "Use-BR-to create line breaks in description"
+2  3  "Theme"    "Use-BR-to create line breaks in description"
 
 >>
 ...
